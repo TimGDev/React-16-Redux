@@ -34,7 +34,7 @@ class CoursesPage extends React.Component {
       <>
         {this.state.redirectToAddCoursePage && <Redirect to="/course" />}
         <h2>Courses</h2>
-        {alert(this.props.loading)}
+
         {this.props.loading ? (
           <Spinner />
         ) : (
